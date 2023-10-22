@@ -1,0 +1,39 @@
+	-- You can add your custom items
+
+
+    -- OX INV ITEMS
+    
+    ['box-ammo-9'] = {
+		label = 'Krabička 9 mm',
+		description = '60x náboju',
+		weight = 200,
+		stack = true
+	},
+
+	['box-ammo-45'] = {
+		label = 'Krabička 45 mm',
+		description = '60x náboju',
+		weight = 200,
+		stack = true
+	},
+
+	['box-ammo-rifle'] = {
+		label = 'Krabička 5.56 mm',
+		description = '250x náboju',
+		weight = 200,
+		stack = true
+	},
+
+	['box-ammo-rifle2'] = {
+		label = 'Krabička 7.62 mm',
+		description = '250x náboju',
+		weight = 200,
+		stack = true
+	},
+
+	['box-ammo-shotgun'] = {
+		label = 'Krabička 12Gauge',
+		description = '60x náboju',
+		weight = 200,
+		stack = true
+	},
