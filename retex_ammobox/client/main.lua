@@ -1,15 +1,6 @@
-ESX = nil
 ESX = exports["es_extended"]:getSharedObject()
 
-Citizen.CreateThread(function()
-    while ESX == nil do
-        Citizen.Wait(0)
-    end
-end)
-
-RegisterNetEvent('esx_ammo:useAmmoBox')
-AddEventHandler('esx_ammo:useAmmoBox', function(ammoType, count)
-    local playerPed = PlayerId()
+RegisterNetEvent('esx_ammo:useAmmoBox', function(ammoType, count)
     local xPlayer = ESX.GetPlayerData()
 
     for i = 1, #xPlayer.inventory, 1 do
